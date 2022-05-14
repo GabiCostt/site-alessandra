@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, #F2C9D1, #E0AFA0);
+}
+
+main {
+    background-color: whitesmoke;
+    margin: auto;
+    width: 1250px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px #97776d;
+    border-radius: 5px;
+}
+
+h1 {
+    font: normal bold 2em Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+p {
+    font: normal normal 1em Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: mediumblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: red;
+}

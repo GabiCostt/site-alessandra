@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --color1: rgb(247, 202, 201);
+    --color2: rgb(255, 182, 181);
+    --color3: rgb(255, 162, 161);
+    --color4: rgb(255, 142, 141);
+    --color5: rgb(255, 122, 121);
+    --color6: rgba(149, 153, 156, 1);
+    --color7: rgba(98, 103, 107, 1);
+    --color8: rgba(49, 54, 58, 1);
+    --color9: rgba(24, 28, 33, 1);
+    --color10: rgb(20, 20, 20);
+    --color11: rgb(10, 10, 10);
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+}
+
+body {
+    background-image: linear-gradient(to right, var(--color8), var(--color9));
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--color8), var(--color11));
+    color: white;
+    min-height: 180px;
+}
+
+header h1 {
+    text-align: center;
+    color: #FF8E8D;
+    font-size: 3em;
+    font-weight: 500;
+    max-width: 500px;
+    padding: 30px 20px 10px 20px;
+}
+
+header .paginainicial {
+    color: var(--color6);
+    text-decoration: none;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+header h2 {
+    text-align: center;
+    color: #FF8E8D;
+    font-size: 2.5em;
+    font-weight: 500;
+    width: 300px;
+    padding: 10px 20px 30px 105px;
+}
+
+nav {
+    background-color: var(--color11);
+    height: 32px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.514);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px 3px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+a.fundolink:hover {
+    background-color: var(--color4);
+    transition-duration: 0.5s;
+    color: var(--color11);
+}
+
+main {
+    background-color: white;
+    text-align: justify;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.377);
+}
+
+main img {
+    margin-bottom: 10px;
+}
+
+main h1, p {
+    margin-bottom: 15px;
+}
+
+main p {
+    font-family: sans-serif;
+    font-weight: normal;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: 00;
+}
+
+main a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+main a:active {
+    color: var(--color5);
+}
+
