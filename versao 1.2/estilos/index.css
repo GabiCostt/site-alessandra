@@ -51,6 +51,12 @@ abbr {
     text-decoration: none;
 }
 
+nav.navpalavras {
+    background-color: var(--color11);
+    height: 40px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.514);
+}
+
 nav {
     background-color: var(--color11);
     height: 32px;
