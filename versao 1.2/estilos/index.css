@@ -57,13 +57,13 @@ nav.navpalavras {
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.514);
 }
 
-nav {
+nav.navimagens {
     background-color: var(--color11);
     height: 32px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.514);
 }
 
-nav a {
+nav a.linkpalavras {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -71,7 +71,13 @@ nav a {
     border-radius: 6px;
 }
 
-a.fundolink:hover {
+nav a.linkimagens {
+    padding: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+a.linkpalavras:hover {
     background-color: var(--color4);
     transition-duration: 0.5s;
     color: var(--color11);
